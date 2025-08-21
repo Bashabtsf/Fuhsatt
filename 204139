@@ -1,0 +1,1071 @@
+// Sample Exam Data
+const exams = {   
+    communityHealth: {
+        title: "Diploma in Community Health Extension Workers (CHEW) Paper II Assessment",
+        duration: 90,
+        questions: [
+            {
+                id: 1,
+                question: "Etiquette can be defined as:",
+                options: ["A system which guides and controls the moral behavior and manifest in character and mind", "Code of manner behavior and action which are expected of a professional", "Qualities a person has learned to believe are important and worthwhile", "Occupation which demands a high standard of education as well"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 2,
+                question: "Duties of community health workers do NOT include:",
+                options: ["Training junior workers", "Caring for the sick", "Providing PHC services", "Non-dissemination of health information"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 3,
+                question: "Affluence is associated with one of the following diseases:",
+                options: ["Tuberculosis", "Obesity", "Sickle cell anemia", "Kwashiorkor"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 4,
+                question: "Medical sociology studies the following areas EXCEPT:",
+                options: ["Serology and distribution of illnesses", "Social change and health care", "Social stress and diseases", "Immorality and diseases"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 5,
+                question: "Procreation as one of the obligations of family has to do with:",
+                options: ["Sexual satisfaction", "Producing offspring", "Discipline of erring members", "Leading and caring for the family"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 6,
+                question: "Educational technology used in communication includes all EXCEPT:",
+                options: ["Simulation", "Flannel graph", "Video Compact Disc (VCD)", "Puppet"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 7,
+                question: "One of these does not promote effective health education:",
+                options: ["Lack of electricity", "Respect for tradition and culture", "Favorable environment", "Being a good listener"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 8,
+                question: "The following means can be used to pass information on health to individuals and families EXCEPT:",
+                options: ["Group discussion", "Observation", "Demonstration", "Storytelling"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 9,
+                question: "Principles of Health Education do not include:",
+                options: ["Personality", "Adaptability", "Clarity", "Simplicity"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 10,
+                question: "PHC approach of the Nigeria health system emphasizes:",
+                options: ["Lack of electricity", "Attitude of the health worker", "Quality assurance", "Delay in payment"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 11,
+                question: "One of these is a cultural theory of disease causation in Nigeria:",
+                options: ["Act of God", "Male circumcision", "Forbidden hard work for pregnant mothers", "Prolonged breastfeeding"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 12,
+                question: "Factors that promote and support integrated primary health care services exclude:",
+                options: ["Cohesive health team", "Operational two-way referral system", "Profit-making mechanism", "Efficient information system"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 13,
+                question: "All are traditional practices that are not detrimental to health except:",
+                options: ["Prolonged breastfeeding", "Spousal inheritance", "Male circumcision", "Post-puerperal diet"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 14,
+                question: "Methods of learning do not include:",
+                options: ["Forgetting", "Reading", "Listening", "Feeding"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 15,
+                question: "All are importance of psychology except:",
+                options: ["It helps people relate better", "It helps in further research", "It helps people to cope with environment", "It helps in training coordinator"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 16,
+                question: "The principle of personality development includes all but one:",
+                options: ["Moral development", "Moral decadence", "Growth of conscience", "Development of ethical values"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 17,
+                question: "Advocacy in PHC has one of the following rationales:",
+                options: ["To seek to have funds from government coffers", "To provide leaders the opportunity to identify with and therefore act as models", "To make health care hard to get", "To mobilize the community"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 18,
+                question: "For the sustainability of community health programme and enhanced community participation, one of the following is indispensable:",
+                options: ["Community diagnosis", "Community development", "Community collaboration", "Community mobilization"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 19,
+                question: "All are methods used in community diagnosis except:",
+                options: ["History taking", "Interview methods", "Observation", "Group discussion"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 20,
+                question: "The role of situation analysis in PHC includes:",
+                options: ["Knowing the number of population", "To know the real health status of the people", "Number of streets for outreach services", "Ability to attend courses for the year"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 21,
+                question: "All are parenteral routes of introducing medicines into the body except:",
+                options: ["Sublingual", "Subcutaneous", "Intrathecal", "Intramuscular"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 22,
+                question: "If a tablet of paracetamol available is 500mg and a patient is prescribed 1g, how many tablet(s) will the patient take?",
+                options: ["1 tablet", "½ tablets", "4 tablets", "2 tablets"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 23,
+                question: "All are non-steroidal anti-inflammatory drugs except:",
+                options: ["Acetylsalicylic acid", "Hyoscine butylbromide", "Ibuprofen", "Piroxicam"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 24,
+                question: "Pharmacology has the following branches with the exception of:",
+                options: ["Toxicology", "Pharmacokinetics", "Idiosyncrasy", "Pharmacotherapeutics"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 25,
+                question: "Factors that determine the drug selection for a specific health facility include all except:",
+                options: ["Acceptability", "Ability of health workers to cover many patients", "Prevailing health problems", "Availability of fund"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 26,
+                question: "Objectives of the national essential drug programme do not include:",
+                options: ["To appoint drug committee members from the community", "To ensure availability of essential drugs", "To promote rational use of drugs", "To improve drug supply management"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 27,
+                question: "Drugs are classified using these forms except:",
+                options: ["Syrup", "Suspension", "Water", "Capsules"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 28,
+                question: "Problems of drug revolving fund include all except:",
+                options: ["Adequate support by the local authority", "Delay in payment", "Credit without equivalent subsidy", "Sudden price increase"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 29,
+                question: "Importance of the two-way referral system includes all except:",
+                options: ["Ensure continuity of care", "Ensure adequacy of care", "Ensure delay in care", "Ensure that cases are treated at appropriate level"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 30,
+                question: "All are cases for referral to the next level of care except:",
+                options: ["Green stick fracture", "Acute appendicitis", "Renal failure", "Strangulated hernia"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 31,
+                question: "Fat-soluble group of vitamins consists of the following except:",
+                options: ["Ascorbic acid", "Retinol", "Calciferol", "Tocopherol"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 32,
+                question: "A biological state resulting from the deficiency or excess of one or more essential nutrients is termed:",
+                options: ["Protein energy malnutrition (PEM)", "Poor feeding", "Obesity", "Malnutrition"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 33,
+                question: "All are functions of dietary fibers with the exception of:",
+                options: ["Satisfaction of hunger", "It aids the formation of cholesterol", "Attracts water, thereby increasing the bulk and softness of fecal matter", "It stimulates and enhances bowel movement"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 34,
+                question: "One of the following is not a conventional method of food preservation:",
+                options: ["Refrigeration", "Use of chemicals", "Salting", "Canning"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 35,
+                question: "In history taking, one of the following is not necessary:",
+                options: ["The health worker uses the medium to build trust and good relationship", "Exposing the financial income of the patient", "It helps in understanding the health condition of the patient", "It exposes the family history of ill health"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 36,
+                question: "One of these is not done during routine examination of a patient:",
+                options: ["Pulse rate", "Blood pressure", "Estimation of skin elasticity", "Temperature taking"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 37,
+                question: "These are possible ways of acquiring immunity except:",
+                options: ["Mother to child transmission through placenta", "Mother to child transmission through breastfeeding", "Having sub-clinical immunization", "Having sub-clinical infection"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 38,
+                question: "A substance which, when introduced into the body system under favorable conditions, can stimulate the production of antibodies is termed:",
+                options: ["Chemoprophylaxis", "Antigen", "Chemotherapy", "Immunoglobulin"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 39,
+                question: "Cold chain equipment includes all the following except:",
+                options: ["Freezer", "Refrigerator", "Vaccine carrier", "Compressor"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 40,
+                question: "The following group of vaccines must not be frozen:",
+                options: ["Pentavalent, TT", "BCG, TT, pentavalent", "Pentavalent, OPV, measles", "HBV, BCG, pentavalent"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 41,
+                question: "Immunity is best described as:",
+                options: ["Ability of the body to resist infection", "Ability of the body to develop adequately", "Ability of the body to absorb food", "Ability of the body to resist drug toxicity"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 42,
+                question: "Primary tissues in the human body are all except:",
+                options: ["Epithelium", "Connective tissues", "Nervous tissue", "Simple epithelial tissue"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 43,
+                question: "The largest gland in the body that occupies the right hypochondrium and extends into the epigastrium and left hypochondrium is called:",
+                options: ["Heart", "Liver", "Pancreas", "Stomach"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 44,
+                question: "Anatomy is:",
+                options: ["The science that deals with the study of the structure of the human body", "The science that deals with the structure of the human mind", "The scientific study of the structures and functions that make up the body", "The study of human biological environment"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 45,
+                question: "All are not functions of the gall bladder except:",
+                options: ["It adds mucus to the bile via its lining membrane", "Storage of vitamin B12", "Transportation of blood to the lungs", "Production of gastric juice"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 46,
+                question: "The substance that gives the stool its normal color is called:",
+                options: ["Lipase", "Chymotrypsin", "Hydrochloric acid", "Bile"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 47,
+                question: "Movement of food from the mouth to the stomach is known as:",
+                options: ["Digestion", "Auscultation", "Peristalsis", "Periodontitis"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 48,
+                question: "One of the following best defines a wound:",
+                options: ["A shortage of blood supply to the brain", "Break in the continuity of the tissue", "Escape of blood from the blood vessels", "Break in the continuity of the bone"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 49,
+                question: "On-the-job training methods for community health workers do not include:",
+                options: ["In-service training", "Delegation", "Internship", "Job rotation"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 50,
+                question: "Rationales for conducting human resource training programs among community health workers do not include:",
+                options: ["To promote staff capacity development and motivation", "To update the knowledge and skills of trained health workers on current and contemporary health issues and technological development", "To encourage health workers to treat all cases that are presented to them", "To correct the inadequacies of an initial program"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 51,
+                question: "Maslow’s postulation on hierarchy of needs takes into cognizance all of the following except:",
+                options: ["Self-neglect", "Self-esteem", "Self-actualization", "Love and affection"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 52,
+                question: "A statement depicting what particular task a worker should undertake or perform is referred to as:",
+                options: ["Duty roster", "Delegation", "Enforcement", "Job description"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 53,
+                question: "Components of good management in PHC include all except:",
+                options: ["Division of labor", "Motivation of personnel", "Delegation without authority", "Management by objectives"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 54,
+                question: "Factors that can cause ineffective supervision in PHC include all except:",
+                options: ["Inadequate materials", "Poor attitude of supervisor", "Adequate logistic support", "Inadequate motivation"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 55,
+                question: "One of the following is not an effect of improper budgeting:",
+                options: ["Staff are retrenched", "Uncompleted projects", "Salaries will not be paid", "Drugs are made available in the facilities"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 56,
+                question: "All are books of prime entry in accounting except:",
+                options: ["Ledger", "Cash book", "Petty cash book", "Daily sales book"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 57,
+                question: "One of these is an example of visible money:",
+                options: ["Cheque", "Bank notes", "Dividend warrant", "Budgetary allocation"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 58,
+                question: "Expendable supplies do not include:",
+                options: ["Syringes, needles, and dressing", "Furniture, vehicles, and buildings", "Registers, cards, and referral forms", "Drugs in the form of tablets, syrups, and injectables"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 59,
+                question: "The major challenge of the Health Management Information System (HMIS) is:",
+                options: ["Poor logistics support", "Outbreak of diseases", "Increase in population rate", "High poverty index"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 60,
+                question: "The following data was generated at Konga Health Centre for antenatal visits in January 2015: 10, 2, 5, 6, 10, 2, 6, 10, 15, 10. The mode of the above observation is:",
+                options: ["2", "6", "5", "10"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 61,
+                question: "One of the components of environmental health is:",
+                options: ["Provision of shelter", "Examination of patient for silicosis", "Provision of environmental hazards", "Provision of healthful housing"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 62,
+                question: "All are rationales for reproductive health in PHC except:",
+                options: ["To ensure the safety and health of the mother and baby", "To make health care services available to few people in the community", "To properly manage reproductive ailments through adequate treatment and referrals", "To equip the health worker with the knowledge and skill necessary for safe motherhood"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 63,
+                question: "The continuum of antenatal services rendered to an expectant mother in the health facility excludes:",
+                options: ["Chest examination", "Pelvic examination", "Abdominal examination", "Physical examination"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 64,
+                question: "The benefit of antenatal care is:",
+                options: ["Reducing labor period", "Determining the number of children a couple should expect", "To deliver abnormal babies", "To ensure delivery of a mature, live, and healthy baby"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 65,
+                question: "One of these is a major disorder of pregnancy:",
+                options: ["Amenorrhea", "Morning sickness", "Changes in the uterus", "Hyperemesis gravidarum"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 66,
+                question: "One of these is not part of the female external genitalia:",
+                options: ["Clitoris", "Cervix", "Labia majora", "Pubic hairs"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 67,
+                question: "One of the following best describes the uterine cycle of the female reproductive cycle:",
+                options: ["Luteal phase awaiting fertilization", "Follicular phase maturation of ovum", "Ovulation-expulsion of ovum", "Proliferation phase-build up of endometrium"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 68,
+                question: "All are factors that influence the physiological process of tooth eruption in an individual with the exception of:",
+                options: ["Hereditary", "Caries", "Congenital problem", "Infections"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 69,
+                question: "Common etiologies of the inflammation or degeneration of gum tissue include all except:",
+                options: ["Adequate dieting", "Immunosuppressive diseases like HIV/AIDS", "Poor hygiene of the oral cavity", "Hormonal changes during pregnancy"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 70,
+                question: "Causes of under-five mortality include all except:",
+                options: ["Malaria and measles", "Tinea capitis", "Acute respiratory infections", "Diarrhea with malnutrition"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 71,
+                question: "The United Nations (UN) declaration on the rights of the child encompasses the following with the exception of:",
+                options: ["The right to special care for the handicapped", "The right to food and shelter", "The right to recreation and play", "The right to juvenile delinquency"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 72,
+                question: "Mania has the following characteristic features except:",
+                options: ["Solitude", "Impaired judgment", "Rational decisions", "Mood swings"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 73,
+                question: "Components of a school health program include all except:",
+                options: ["Safe school environment", "School-home and community relationship", "Health education", "Family planning"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 74,
+                question: "In the assessment of the health needs of a school child, the following methods are used except:",
+                options: ["Workshop/symposia", "Interviewing", "Review of existing records/documents", "Observation"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 75,
+                question: "One of the following diseases does not present with a febrile condition:",
+                options: ["Malaria", "Measles", "Chicken pox", "Epilepsy"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 76,
+                question: "In communicable and non-communicable diseases, the word sporadic means:",
+                options: ["A disease that spreads over a large region of the population", "A disease which affects one slowly but lasts a long time", "A disease that affects a few individuals in scattered forms in a population", "A disease that affects one suddenly but lasts a short time"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 77,
+                question: "One of the following is a zoonotic disease:",
+                options: ["Plasmodiasis", "Rabies", "Ankylostomiasis", "Enteric fever"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 78,
+                question: "Routes of transmission of diseases include the following except:",
+                options: ["Transplacental route", "Sexual route", "Nosocomial route", "Inhalation droplet"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 79,
+                question: "General control measures for communicable diseases include all except:",
+                options: ["Contact and carrier tracing and investigation", "Early diagnosis", "Prompt and correct treatment", "Elimination of infection"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 80,
+                question: "Factors contributing to the spread of emerging and re-emerging diseases include:",
+                options: ["Prompt and adequate immunization", "Avoidance of overcrowding", "Reporting to the appropriate authority", "Increasing migration of people across the world"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 81,
+                question: "Severe escape of blood from the body could result in one of the following:",
+                options: ["Hypovolemic shock", "Cardiogenic shock", "Septic shock", "Neurogenic shock"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 82,
+                question: "A mishap that involves many people with varying degrees of injuries and sometimes deaths is referred to as:",
+                options: ["Road traffic accident", "Motor accident", "Mass casualty", "Building collapse"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 83,
+                question: "Otitis media is the:",
+                options: ["Infection of the middle ear", "Infection of the mouth", "Infection of the external ear", "Infection of the ears"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 84,
+                question: "The following is an instrument used in the examination of the ear:",
+                options: ["Ophthalmoscope", "Otoscope", "Auriscope", "Stethoscope"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 85,
+                question: "One of the arms of primary ear, nose, and throat care includes:",
+                options: ["Provision of facial plastic and reconstruction surgery", "Promoting problems that may arise through ear, nose, and throat", "Promoting early identification and management of ear, nose, and throat disorders", "Encouraging all ill practices associated with ear, nose, and throat"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 86,
+                question: "A thin, semi-transparent partition of fibrous connective tissue between the external auditory canal and middle ear, covered with a mucous membrane, best describes:",
+                options: ["Tympanic membrane", "Auditory ossicles", "Eustachian tube", "Semicircular canal"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 87,
+                question: "Defects of the eye that could impair vision include all the following except:",
+                options: ["Astigmatism", "Conjunctiva", "Hypermetropia", "Long-sightedness"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 88,
+                question: "The medical condition characterized by the opacity of the lens that could cause blindness in an individual is referred to as:",
+                options: ["Glaucoma", "Conjunctivitis", "Iritis", "Cataract"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 89,
+                question: "Health benefits of exercise in the elderly include the following except:",
+                options: ["Increased metabolic disorders", "Improvement of cardio-respiratory function", "Lowering of blood pressure", "Correction of dyslipidemia and impaired glucose tolerance"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 90,
+                question: "Some characteristics of mentally retarded individuals include all except:",
+                options: ["Having high intelligence quotient", "Can’t think clearly", "Do not understand what is happening to them", "Keep to self and take care of self, most of the time"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 91,
+                question: "When the arm circumference strip reads yellow, it means that:",
+                options: ["The baby is mid/moderately malnourished", "The baby is well fed", "The baby is under age", "The baby is sick"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 92,
+                question: "The factors that can affect the nutritional status of a community include the following except:",
+                options: ["Frequency of food", "Political factors", "Family size", "Seasonal variation"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 93,
+                question: "Cases presented in the health center but not in the standing order are usually:",
+                options: ["Managed off-hand", "Referred to a higher level", "Sent the patient home", "Refused treatment"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 94,
+                question: "Which of the following instruments is used for measuring blood pressure:",
+                options: ["Thermometer and circumference", "Sphygmomanometer and stethoscope", "Stethoscope and thermometer", "Auroscope and sphygmomanometer"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 95,
+                question: "A vaccine is not available for one of the following:",
+                options: ["Hepatitis B", "Malaria", "Diphtheria", "Tetanus"],
+                answer: 1,
+                type: "mcq"
+            },
+            {
+                id: 96,
+                question: "Tetanus is caused by:",
+                options: ["Poliomyelitis virus", "Salmonella typhi", "Shigella", "Clostridium tetani"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 97,
+                question: "The following are factors affecting host immunity except:",
+                options: ["Antibodies", "Age", "Pregnancy", "Nutrition"],
+                answer: 0,
+                type: "mcq"
+            },
+            {
+                id: 98,
+                question: "A cold box is a:",
+                options: ["Container with ice cubes", "Van for transportation of vaccines", "Equipment for vaccine storage to maintain the potency of vaccines", "Equipment for distribution of materials"],
+                answer: 2,
+                type: "mcq"
+            },
+            {
+                id: 99,
+                question: "One of the following is not part of the reproductive system:",
+                options: ["Fallopian tubes", "Testis", "Uterus", "Urethra"],
+                answer: 3,
+                type: "mcq"
+            },
+            {
+                id: 100,
+                question: "The inner layer of the skin consists of the following except:",
+                options: ["Sweat glands", "Dermis", "Blood vessels", "Epidermis"],
+                answer: 3,
+                type: "mcq"
+            }
+        ]
+    }
+};
+
+// DOM Elements
+const loginScreen = document.getElementById('login-screen');
+const dashboardScreen = document.getElementById('dashboard-screen');
+const loginForm = document.getElementById('login-form');
+const usernameInput = document.getElementById('username');
+const loggedInUser = document.getElementById('logged-in-user');
+const examContent = document.getElementById('exam-content');
+const resultsContent = document.getElementById('results-content');
+const examTitle = document.getElementById('exam-title');
+const examTimer = document.getElementById('exam-timer');
+const currentQuestionElement = document.getElementById('current-question');
+const totalQuestionsElement = document.getElementById('total-questions');
+const questionNumbersContainer = document.querySelector('.question-numbers');
+const questionText = document.getElementById('question-text');
+const optionsContainer = document.getElementById('options-container');
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+const submitBtn = document.getElementById('submit-btn');
+const scorePercentage = document.getElementById('score-percentage');
+const scoreText = document.getElementById('score-text');
+const detailedResults = document.getElementById('detailed-results');
+const backToExamBtn = document.getElementById('back-to-exam');
+
+// Exam Variables
+let currentExam = null;
+let currentQuestionIndex = 0;
+let userAnswers = [];
+let timerInterval = null;
+let timeLeft = 0;
+
+// Initialize the application
+function init() {
+    // Event Listeners
+    loginForm.addEventListener('submit', handleLogin);
+    prevBtn.addEventListener('click', showPreviousQuestion);
+    nextBtn.addEventListener('click', showNextQuestion);
+    submitBtn.addEventListener('click', submitExam);
+    backToExamBtn.addEventListener('click', showExamContent);
+    
+    // Menu Event Listeners
+    document.getElementById('exam-menu').addEventListener('click', showExamContent);
+    document.getElementById('results-menu').addEventListener('click', showResultsContent);
+    document.getElementById('logout-menu').addEventListener('click', logout);
+    
+    // Load sample exam data
+    currentExam = exams.communityHealth;
+    userAnswers = new Array(currentExam.questions.length).fill(null);
+}
+
+// Handle Login
+function handleLogin(e) {
+    e.preventDefault();
+    const username = usernameInput.value.trim();
+    
+    if (username) {
+        loggedInUser.textContent = username;
+        loginScreen.classList.add('hidden');
+        dashboardScreen.classList.remove('hidden');
+        showExamContent();
+        startExam();
+    }
+}
+
+// Start Exam
+function startExam() {
+    // Reset exam variables
+    currentQuestionIndex = 0;
+    userAnswers = new Array(currentExam.questions.length).fill(null);
+    
+    // Set exam title
+    examTitle.textContent = currentExam.title;
+    
+    // Set total questions
+    totalQuestionsElement.textContent = currentExam.questions.length;
+    
+    // Start timer
+    timeLeft = currentExam.duration * 60;
+    startTimer();
+    
+    // Generate question numbers
+    generateQuestionNumbers();
+    
+    // Display first question
+    displayQuestion();
+}
+
+// Start Timer
+function startTimer() {
+    clearInterval(timerInterval);
+    
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        updateTimerDisplay();
+        
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            submitExam();
+        }
+    }, 1000);
+    
+    updateTimerDisplay();
+}
+
+// Update Timer Display
+function updateTimerDisplay() {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    examTimer.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    
+    // Change color when time is running low
+    if (timeLeft <= 300) { // 5 minutes or less
+        examTimer.style.color = 'var(--danger-color)';
+    }
+}
+
+// Generate Question Numbers
+function generateQuestionNumbers() {
+    questionNumbersContainer.innerHTML = '';
+    
+    currentExam.questions.forEach((question, index) => {
+        const questionNumber = document.createElement('div');
+        questionNumber.className = 'question-number';
+        questionNumber.textContent = index + 1;
+        questionNumber.dataset.index = index;
+        
+        // Highlight current question
+        if (index === currentQuestionIndex) {
+            questionNumber.classList.add('active');
+        }
+        
+        // Mark answered questions
+        if (userAnswers[index] !== null) {
+            questionNumber.classList.add('answered');
+        }
+        
+        questionNumber.addEventListener('click', () => {
+            currentQuestionIndex = index;
+            displayQuestion();
+        });
+        
+        questionNumbersContainer.appendChild(questionNumber);
+    });
+}
+
+// Display Current Question
+function displayQuestion() {
+    const question = currentExam.questions[currentQuestionIndex];
+    
+    // Update current question display
+    currentQuestionElement.textContent = currentQuestionIndex + 1;
+    
+    // Update question numbers highlighting
+    updateQuestionNumbersHighlight();
+    
+    // Display question text
+    questionText.textContent = `${question.id}. ${question.question}`;
+    
+    // Clear previous options
+    optionsContainer.innerHTML = '';
+    
+    // Display options based on question type
+    if (question.type === 'mcq' || question.type === 'truefalse') {
+        question.options.forEach((option, index) => {
+            const optionElement = document.createElement('div');
+            optionElement.className = 'option';
+            
+            if (userAnswers[currentQuestionIndex] === index) {
+                optionElement.classList.add('selected');
+            }
+            
+            const radioInput = document.createElement('input');
+            radioInput.type = 'radio';
+            radioInput.name = 'question-option';
+            radioInput.value = index;
+            radioInput.id = `option-${index}`;
+            radioInput.checked = userAnswers[currentQuestionIndex] === index;
+            
+            const label = document.createElement('label');
+            label.htmlFor = `option-${index}`;
+            label.textContent = option;
+            
+            optionElement.appendChild(radioInput);
+            optionElement.appendChild(label);
+            
+            optionElement.addEventListener('click', () => {
+                userAnswers[currentQuestionIndex] = index;
+                displayQuestion(); // Refresh to show selection
+            });
+            
+            optionsContainer.appendChild(optionElement);
+        });
+    } else if (question.type === 'text') {
+        const inputElement = document.createElement('input');
+        inputElement.type = 'text';
+        inputElement.className = 'text-answer';
+        inputElement.placeholder = 'Type your answer here...';
+        
+        if (userAnswers[currentQuestionIndex] !== null) {
+            inputElement.value = userAnswers[currentQuestionIndex];
+        }
+        
+        inputElement.addEventListener('input', (e) => {
+            userAnswers[currentQuestionIndex] = e.target.value.trim();
+        });
+        
+        optionsContainer.appendChild(inputElement);
+    }
+    
+    // Update navigation buttons
+    prevBtn.disabled = currentQuestionIndex === 0;
+    
+    // Show submit button on last question
+    if (currentQuestionIndex === currentExam.questions.length - 1) {
+        nextBtn.classList.add('hidden');
+        submitBtn.classList.remove('hidden');
+    } else {
+        nextBtn.classList.remove('hidden');
+        submitBtn.classList.add('hidden');
+    }
+}
+
+// Update Question Numbers Highlight
+function updateQuestionNumbersHighlight() {
+    const questionNumbers = document.querySelectorAll('.question-number');
+    
+    questionNumbers.forEach((number, index) => {
+        number.classList.remove('active');
+        
+        if (index === currentQuestionIndex) {
+            number.classList.add('active');
+        }
+        
+        if (userAnswers[index] !== null) {
+            number.classList.add('answered');
+        } else {
+            number.classList.remove('answered');
+        }
+    });
+}
+
+// Show Previous Question
+function showPreviousQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        displayQuestion();
+    }
+}
+
+// Show Next Question
+function showNextQuestion() {
+    if (currentQuestionIndex < currentExam.questions.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion();
+    }
+}
+
+// Submit Exam
+function submitExam() {
+    clearInterval(timerInterval);
+    
+    // Calculate score
+    let score = 0;
+    const results = [];
+    
+    currentExam.questions.forEach((question, index) => {
+        const userAnswer = userAnswers[index];
+        let isCorrect = false;
+        
+        if (question.type === 'mcq' || question.type === 'truefalse') {
+            isCorrect = userAnswer === question.answer;
+        } else if (question.type === 'text') {
+            isCorrect = userAnswer && userAnswer.toLowerCase() === question.answer.toLowerCase();
+        }
+        
+        if (isCorrect) {
+            score++;
+        }
+        
+        results.push({
+            question: question.question,
+            userAnswer: question.type === 'mcq' || question.type === 'truefalse' 
+                ? (userAnswer !== null ? question.options[userAnswer] : 'Not answered') 
+                : (userAnswer || 'Not answered'),
+            correctAnswer: question.type === 'mcq' || question.type === 'truefalse' 
+                ? question.options[question.answer] 
+                : question.answer,
+            isCorrect
+        });
+    });
+    
+    const percentage = Math.round((score / currentExam.questions.length) * 100);
+    
+    // Display results
+    showResultsContent();
+    
+    // Update score display
+    scorePercentage.textContent = percentage;
+    scoreText.textContent = `${score} out of ${currentExam.questions.length} correct`;
+    
+    // Generate detailed results
+    detailedResults.innerHTML = '';
+    results.forEach((result, index) => {
+        const resultItem = document.createElement('div');
+        resultItem.className = `detailed-result-item ${result.isCorrect ? 'correct' : 'incorrect'}`;
+        
+        const questionResult = document.createElement('div');
+        questionResult.className = 'question-result';
+        questionResult.textContent = `${index + 1}. ${result.question}`;
+        
+        const userAnswer = document.createElement('div');
+        userAnswer.className = 'answer-result';
+        userAnswer.textContent = `Your answer: ${result.userAnswer}`;
+        
+        const correctAnswer = document.createElement('div');
+        correctAnswer.className = 'answer-result';
+        correctAnswer.textContent = `Correct answer: ${result.correctAnswer}`;
+        
+        resultItem.appendChild(questionResult);
+        resultItem.appendChild(userAnswer);
+        
+        if (!result.isCorrect) {
+            resultItem.appendChild(correctAnswer);
+        }
+        
+        detailedResults.appendChild(resultItem);
+    });
+}
+
+// Show Exam Content
+function showExamContent() {
+    examContent.classList.remove('hidden');
+    resultsContent.classList.add('hidden');
+    
+    // Update active menu
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.classList.remove('active');
+    });
+    document.getElementById('exam-menu').classList.add('active');
+}
+
+// Show Results Content
+function showResultsContent() {
+    examContent.classList.add('hidden');
+    resultsContent.classList.remove('hidden');
+    
+    // Update active menu
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.classList.remove('active');
+    });
+    document.getElementById('results-menu').classList.add('active');
+}
+
+// Logout
+function logout() {
+    dashboardScreen.classList.add('hidden');
+    loginScreen.classList.remove('hidden');
+    usernameInput.value = '';
+}
+
+// Initialize the application
+init();
